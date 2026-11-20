@@ -75,8 +75,8 @@ jobs:
         run: |
           sudo podman exec circuit-bun bash -lc '
             set -eux
-            bun --version | grep -x 1.4.4
-            bunx --version | grep -x 1.4.4
+            bun --version | grep -x 1.4.5
+            bunx --version | grep -x 1.4.5
             mkdir /tmp/t && cd /tmp/t
             bun init -y >/dev/null
             bun add --exact semver@7.8.5
