@@ -1,6 +1,6 @@
 # Local example
 
-Applies circuit-bun to a throwaway Rocky Linux 10 container with systemd, installing Bun 1.4.4. You need Conn3x and Podman.
+Applies circuit-bun to a throwaway Rocky Linux 10 container with systemd, installing Bun 1.4.5. You need Conn3x and Podman.
 
 ```sh
 ./up.sh
